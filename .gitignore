@@ -2,3 +2,9 @@
 .idea/
 
 __pycache__/
+# macOS
+.DS_Store
+
+venv/
+.venv/
+.DS_Store

@@ -13,7 +13,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
 [project.urls]
 "Homepage" = "https://github.com/OxfordRSE/oxrse_unit_conv"
 "Bug Tracker" = "https://github.com/OxfordRSE/oxrse_unit_conv/issues"
